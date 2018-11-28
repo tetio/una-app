@@ -45,26 +45,30 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 
 ## ttag installation
-npm i ttag
-npm i ttag-cli
+### `npm i ttag`
+### `npm i ttag-cli`
+
 
 # JSX
 from
- <p>Learn React</p>
+<p>Learn React</p>
 to
 <p>{ t`Learn React` }</p>
 
 ## po file initialization
-./node_modules/ttag-cli/bin/ttag init ca i18n/ca.po
-./node_modules/ttag-cli/bin/ttag init en i18n/en.po
-./node_modules/ttag-cli/bin/ttag init es i18n/es.po
+### `./node_modules/ttag-cli/bin/ttag init ca i18n/ca.po`
+### `./node_modules/ttag-cli/bin/ttag init en i18n/en.po`
+### `./node_modules/ttag-cli/bin/ttag init es i18n/es.po`
 
-## po file management
-./node_modules/ttag-cli/bin/ttag update i18n/ca.po src/
-./node_modules/ttag-cli/bin/ttag update i18n/en.po src/
 
-## po fileto json
-npx ttag po2json i18n/ca.po > i18n/ca.po.json
-npx ttag po2json i18n/en.po > i18n/en.po.json
+
+
+## update po 
+### `./node_modules/ttag-cli/bin/ttag update i18n/ca.po src/`
+### `./node_modules/ttag-cli/bin/ttag update i18n/en.po src/`
+
+## po to json
+### `npx ttag po2json i18n/ca.po > i18n/ca.po.json`
+### `.npx ttag po2json i18n/en.po > i18n/en.po.json`
 
 
