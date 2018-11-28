@@ -1,0 +1,23 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Plural-Forms: nplurals = 2; plural = (n !== 1);\n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/App.js:38
+msgid "Learn React"
+msgstr "Apendre React"
+
+#: src/App.js:16
+msgid "Switch lang"
+msgstr "Canviar d'idioma"
+
+#: src/App.js:30
+msgid "Edit <code>src/App.js</code> and save to reload."
+msgstr "Edit <code>src/App.js</code> i desa per recarregar."
+
+#: src/App.js:40
+msgid "Good luck!"
+msgstr "Bona Sort!"

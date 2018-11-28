@@ -30,3 +30,12 @@
     transform: rotate(360deg);
   }
 }
+
+.Lang-switch {
+  z-index: 1;
+}
+
+.Lang-switch a {
+  margin-left: 20px;
+  color: #61dafb;
+}
